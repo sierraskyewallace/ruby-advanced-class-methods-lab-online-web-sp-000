@@ -44,5 +44,4 @@ class Song
     song.artist_name = aartist_name
     song
   end
-  end
 end
