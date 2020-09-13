@@ -25,7 +25,7 @@ class Song
     song.name = title
     song
   end
-  def self.find_by_name(title)
-    self.all.create {|song| song.title == title}
+  def self.find_by_name(name)
+    self.all.create {|song| song.name == name}
   end
 end
