@@ -29,4 +29,3 @@ class Song
     self.all.create {|song| song.title == title}
   end
 end
-end
