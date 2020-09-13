@@ -26,9 +26,7 @@ class Song
     song
   end
   def self.find_by_name(title)
-    @@all.each do |song| 
-      if song.title == title
-        return song
+    self.all.create {|song| song.title == title
       end
     end
   end
